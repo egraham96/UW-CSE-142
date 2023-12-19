@@ -6,7 +6,7 @@
   10 20         30   40
 
 test
-What would be the output from the code in the previous exercise if the calls to hasNextLine and nextLine were replaced by calls to hasNext and next, respectively, as shown below?
+What would be the output from the code in the previous exercise (shown below) if the calls to hasNext and next were replaced by calls to hasNextInt and nextInt, respectively? How about hasNextDouble and nextDouble ?
 
 Scanner input = new Scanner(new File("readme.txt"));
 int count = 0;
@@ -18,18 +18,7 @@ System.out.println(count + " total"); */
 
 
 /*
-input: 6.7
-input: This
-input: file
-input: has
-input: several
-input: input
-input: lines.
-input: 10
-input: 20
-input: 30
-input: 40
-input: test
-12 total
-
-*/
+hasNextInt/nextInt : 0 total
+hasNextDouble/nextDouble :  input: 6.7
+                            1 total
+ */
