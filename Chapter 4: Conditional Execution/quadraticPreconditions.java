@@ -13,7 +13,7 @@ But for some values of a, b, and c, the formula does not find any valid roots.
 Under what conditions would this formula fail? Modify the quadratic method so that it will reject invalid values of a, b, or c by throwing an IllegalArgumentException. 
 (You may want to go back and complete the exercise in the previous chapter first.) */
 
-/*
+
 public static void quadratic(double a, double b, double c) {
     if (a == 0) {
         throw new IllegalArgumentException("Coefficient 'a' cannot be zero.");
@@ -31,4 +31,3 @@ public static void quadratic(double a, double b, double c) {
     System.out.println("First root = " + root1);
     System.out.println("Second root = " + root2);
 }
-*/

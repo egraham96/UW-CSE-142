@@ -4,7 +4,6 @@ If the number of repetitions is 0 or less, an empty string is returned. */
 
 
 public static String repl (String input, int reps) {
-    
         String result = "";
         for (int i = 0; i < reps; i++) {
             result += input;
