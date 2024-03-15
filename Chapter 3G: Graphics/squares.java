@@ -19,6 +19,5 @@ public class Squares {
             
             g.setColor(Color.BLACK);
             g.drawLine(50, 50, 150, 150);
-    
         }
 }
